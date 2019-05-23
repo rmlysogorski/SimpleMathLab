@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Math Calculator</title>
+</head>
+<body>    
+    <form id="calculator" class="calculatorForm">
+        <p class="calculatorRow">
+        <label class="calculatorCell" for="num1">Enter a Number:</label>
+        <input class="calculatorCell" id="num1" type="number"  />
+        </p>
+        <p class="calculatorRow">
+        <label class="calculatorCell" for="num1">Enter a Number:</label>
+        <input class="calculatorCell" id="num2" type="number" />
+        </p>
+        <p class="calculatorRow">
+        <input type="radio" name="math" value="Add" />Add
+        <input type="radio" name="math" value="Subtract" />Subtract
+        <input type="radio" name="math" value="Multiply" />Multiply
+        <input type="radio" name="math" value="Divide" />Divide            
+        </p>
+    </form>
+    <button id="calculate" onclick="calculate()">Calculate!</button>
+    <label id="result"></label>
+    <script src="calculator.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.calculatorForm{
+    display: table;
+}
+
+p.calculatorRow{
+    display: table-row;
+}
+
+label.calculatorCell{
+    display: table-cell;
+}
+
+input.calculatorCell{
+    display: table-cell;
+}
+
+.operationsRow{
+    display: table-cell;
+    column-span: all;
+}
